@@ -70,3 +70,30 @@ h2{
 .login__text a{
     text-decoration: none;
 }
+
+
+@media(max-width: 360px){
+    .form__btn{
+        margin: 0 auto 13px 50px;
+        padding: 10px 75px;
+        border-radius: 5px;
+        border: 1.5px solid #81B6C4;
+        box-shadow: 1px 1px #81B6C4;
+        color: #163037;
+        background-color: #81B6C4;
+        
+    }
+}
+
+@media(max-width: 356px){
+    .form__btn{
+        margin: 0 auto 13px auto;
+        padding: 10px 75px;
+        border-radius: 5px;
+        border: 1.5px solid #81B6C4;
+        box-shadow: 1px 1px #81B6C4;
+        color: #163037;
+        background-color: #81B6C4;
+        
+    }
+}
